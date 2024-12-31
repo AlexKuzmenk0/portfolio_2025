@@ -1,0 +1,84 @@
+.projects{
+		background-color: #fff;
+	&_test{
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// &_projects{
+// 	margin-top: 30px;
+// 	position: relative;
+// 	h2{
+// 		color: var(--txt-color);
+// 		font-size: 35px;
+// 	}
+// 	&_items{
+// 		display: flex;
+// 		flex-direction: column;
+// 		flex-wrap: nowrap;
+// 		margin-top: 18px;
+// 		a{
+// 			max-width: 110px;
+// 			padding-top: 20px;
+// 			color: var(--txt-color);
+// 			font-size: larger;
+// 			list-style: none;
+// 			border-bottom: 2px solid var(--liner-color);
+// 			transition: .9s;
+// 			text-align: center;
+// 		}
+// 		a.food:hover{
+// 			color: #54ed39;
+// 			transform: scale(1.5);
+// 		}
+// 		a.uber:hover{
+// 			color: #19a8c3;
+// 			transform: scale(1.5);
+// 		}
+// 		a.course-wp:hover{
+// 			color: #f9bf3b;
+// 			transform: scale(1.5);
+// 		}
+// 		a.pulse-s:hover{
+// 			color: #a2fca1;
+// 			transform: scale(1.5);
+// 		}
+// 		a.chameleon:hover{
+// 			color: #9b47e5;
+// 			transform: scale(1.5);
+// 		}
+
+// 	}
+// 	button{
+// 		margin-top: 20px;
+// 		color: var(--txt-color);
+// 		font-size: larger;
+// 		padding: 0;
+// 		border: none;
+// 		border-bottom: 2px solid var(--liner-color);
+		
+// 	}
+// }

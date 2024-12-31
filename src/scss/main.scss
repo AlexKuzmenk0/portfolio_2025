@@ -1,0 +1,37 @@
+@import "./base/reset";
+@import "./base/variables";
+
+@import "./block/header";
+@import "./block/mein";
+@import "./block/projects";
+@import "./block/media";
+@import "./block/footer";
+
+* {
+  background-color: var(--bgcn);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+//!Footer in bottom
+
+html, body{
+  height: 100%;
+}
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main.main{
+  flex: 1 1 auto;
+}
+
+.footer{
+  color: #fff;
+  padding: 0 0 30px 30px;
+}
+//!

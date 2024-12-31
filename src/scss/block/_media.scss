@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+  .main{
+    &_info{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    &_projects{
+      margin-left: 20px;
+      &_items{
+        display: grid;
+        grid-template-columns: 120px 120px;
+      }
+      &_skills{
+        left: 30px;
+        &_stuff{
+          &_wrapper{
+            ul{
+            display: flex;
+            }
+          }
+        }
+      }
+    }
+    .op-skills{
+      margin-top: 35px;
+    }
+  }
+}
